@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ba00f82-c033-4ed8-8871-cfdd5fa57d9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" />
-    </list>
+    <list default="true" id="5ba00f82-c033-4ed8-8871-cfdd5fa57d9b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -141,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-2" />
     <option name="width" value="2560" />
     <option name="height" value="1442" />
@@ -222,15 +216,15 @@
       <workItem from="1561016750914" duration="346000" />
       <workItem from="1561017136887" duration="964000" />
       <workItem from="1561614229633" duration="2821000" />
-      <workItem from="1561624690464" duration="821000" />
+      <workItem from="1561624690464" duration="1121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12705000" />
+    <option name="totallyTimeSpent" value="13005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="2560" height="1442" extended-state="7" />
+    <frame x="0" y="-2" width="2560" height="1442" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.092234924" />
