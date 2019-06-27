@@ -1,9 +1,20 @@
-const http = require("http");
+const express = require('express');
+const bodyParser = require('body-parser');
+const path = require('path');
 
-const routes = require('./routes');
+const app = express();
 
-// const rqListener = (req, res) => {}; // This function will run for every request made to the server
+const adminRoutes = require('./routes/admin');
+const shopRoutes = require('./routes/shop');
 
-const server = http.createServer(routes.handler);
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(express.static(path.join(__dirname, 'public')));
 
-server.listen(3001);
+app.use('/admin', adminRoutes);
+app.use(shopRoutes);
+
+app.use((req, res, next) => {
+   res.status(404).sendFile(path.join(__dirname, 'views', 'page-not-found.html'));
+});
+
+app.listen(3000);
